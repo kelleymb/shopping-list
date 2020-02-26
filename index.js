@@ -5,7 +5,7 @@ $(function() {
 
 /* add item to the <li> to the shopping list <ul> */
 const addItem = $('event.currentTarget').find("#shopping-list-entry");
-$('ul').append(' <li> <span class="shopping-item">${addItem.val()}</span><div class="shopping-item-controls"><button class="shopping-item-toggle"><span class="button-label">check</span></button><button class="shopping-item-delete"><span class="button-label">delete</span></button>')
+$('ul').append(' <li><span class="shopping-item">${addItem.val()}</span><div class="shopping-item-controls"><button class="shopping-item-toggle"><span class="button-label">check</span></button><button class="shopping-item-delete"><span class="button-label">delete</span></button>')
 
 
 })
